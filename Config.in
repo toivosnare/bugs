@@ -1,0 +1,7 @@
+config BR2_PACKAGE_BUGS
+	bool "bugs"
+	select BR2_PACKAGE_HOST_GNUCOBOL
+	help
+	  BUsiness-oriented Gif Server.
+
+	  https://github.com/toivosnare/bugs
